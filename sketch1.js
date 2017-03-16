@@ -12,6 +12,7 @@ var cx;
 var cy;
 var cRadius = 40;
 
+//ellipse variables
 var ed;
 var ex;
 var ey;
@@ -26,14 +27,9 @@ var two;
 var three;
 
 function preload() {
-	one = loadSound("one.wav");
-}
-function preload() {
-	two = loadSound("two.wav");
-}
-function preload() {
-	three = loadSound("three.wav");
-}
+	one = loadSound("https://cdn.rawgit.com/AlexHeselton/sampler/e6eeedf3/one.wav");
+	two = loadSound("https://cdn.rawgit.com/AlexHeselton/sampler/e6eeedf3/two.wav");
+	three = loadSound("https://cdn.rawgit.com/AlexHeselton/sampler/e6eeedf3/three.wav");
 
 
 function setup() {

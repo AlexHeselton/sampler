@@ -30,7 +30,7 @@ function preload() {
 	one = loadSound("https://cdn.rawgit.com/AlexHeselton/sampler/e6eeedf3/one.wav");
 	two = loadSound("https://cdn.rawgit.com/AlexHeselton/sampler/e6eeedf3/two.wav");
 	three = loadSound("https://cdn.rawgit.com/AlexHeselton/sampler/e6eeedf3/three.wav");
-
+}
 
 function setup() {
 	createCanvas(windowWidth, windowHeight); 
